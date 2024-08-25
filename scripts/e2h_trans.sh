@@ -1,0 +1,3 @@
+python translate.py --config ~/model_outputs/outputs/hadgem3_to_era5_monsoon/config.yaml --output_zarr /datadrive/era5/monsoon_to_hadgem3_zarr --checkpoint ~/model_outputs/outputs/hadgem3_to_era5_monsoon/checkpoints/gen_00110000.pt  --x2x a2b --seed 202002091130
+
+python translate.py --config ~/model_outputs/outputs/hadgem3_to_era5_monsoon/config.yaml --output_zarr /datadrive/hadgem3/monsoon_to_era5_zarr --checkpoint ~/model_outputs/outputs/hadgem3_to_era5_monsoon/checkpoints/gen_00110000.pt  --x2x b2a --seed 202002091130
